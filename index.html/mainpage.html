@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <title>Main Page</title>
+
+    <style type="text/css">
+        body {
+            font-family: Pulang;
+            background-image: url("bg2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 80px;
+            margin: 0; /* Remove default margin */
+        }
+
+        img {
+            width: 180px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background: #f7ed8e;
+            opacity: 85%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000; /* Ensure header is above other content */
+        }
+
+        .logo {
+            font-size: 35px;
+            color: black;
+            font-weight: 700;
+            font-family: Pulang;
+            letter-spacing: 2px;
+        }
+
+        .navbar a {
+            font-size: 19px;
+            color: black;
+            font-weight: 500;
+            font-family: Pulang;
+            margin-left: 60px;
+        }
+
+        #sources {
+            font-size: 15px;
+        }
+
+        #p2 {
+            font-size: 18px;
+        }
+
+        #p4 {
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background: transparent; /* Set background color to transparent */
+            font-size: 50px;
+            position: fixed; /* Make the footer fixed at the bottom */
+            left: 0;
+            bottom: 0;
+            width: 100%; /* Stretch footer to full width */
+            z-index: 1000; /* Ensure footer is above other content */
+            height: 165px; /* Set height of the footer */
+        }
+
+        .footerContainer {
+            padding: px; /* Add padding for the content in the footer */
+        }
+
+        .footerBottom {
+            background-color: #f7ed8e; /* Set background color for the bottom section */
+            padding: 10px;
+            font-size: 10px;
+        }
+
+        #text {
+            font-size: 20px;
+            width: ;
+        }
+
+        .socialIcons {
+            display: flex;
+          
+        }
+
+        .socialIcons img {
+            width: 50px; /* Set width for the social media icons */
+            margin: 0 10px; /* Add margin between icons */
+            transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+        }
+
+        .socialIcons img:hover {
+            transform: scale(1.2); /* Scale up the icon on hover */
+        }
+
+        #footer-text {
+            font-size: 18px;
+        }
+
+        form {
+            size: 10px;
+            margin-left: 32%;
+        }
+
+        
+
+#text-comments {
+ width: 500px;
+
+}
+
+
+    </style>
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">k🍓te</a>
+
+    <nav class="navbar">
+        <a href="page2.html">Q1 Project ᡣ𐭩</a>
+        <a href="page3.html">Q2 Project ୨ৎ</a>
+        <a href="page4.html" id="p4">Q3 Project ꩜</a>
+
+        <div class="topnav">
+            <input type="text" placeholder="Search.."><button>🔍</button>
+        </div>
+    </nav>
+</header>
+<center>
+    <div class="col-md-10">
+        <img id="pfp" src="kat2.png">
+        <p>₊˚My Online Portfolio༉‧.</p>
+        <p id="p2">Welcome! This page showcases all my ICT projects for this SY 2023-2024. Each project has been coded with difficulty, care, and love. Enjoy! (pls do i spent so long on them)<br></p>
+        <a href="index.html"><button type="btn btn-warning">Log Out ᯓᡣ𐭩</button></a>
+    </div>
+</center>
+<br>
+<center>
+    <p id="sources">Sources: <a href="https://www.reddit.com/r/anime/comments/qywulv/skip_and_loafer_anime_announcement_celebration/">background1</a>, <a href="https://www.reddit.com/r/manga/comments/14ai1jo/art_dancing_illustration_by_misaki_takamatsu_skip/#lightbox">background2</a>, <a href="https://emojidb.org/cute-symbols-emojis">symbols</a></p>
+</center>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <img src="https://i.pinimg.com/564x/8a/2a/15/8a2a1563234f86a684ff0eb8d9c8758d.jpg" class="rounded">
+            <img src="https://i.pinimg.com/564x/3e/6f/8b/3e6f8b0f35028ba9c9e7e06c67744aaa.jpg" class="rounded">
+            <img src="https://pbs.twimg.com/media/Edri7pXUMAE4yTF?format=jpg&name=small" class="rounded">
+            <img src="https://pbs.twimg.com/media/Edri7pcU4AEJGVi?format=jpg&name=small" class="rounded">
+        </div>
+    </div>
+    <div class="footerBottom">
+        <p id="footer-text">Leave a comment/suggestion here!</p>
+        <form action="mainpage.html" class="form-group">
+            <label id="comments"></label><br>
+            <input type="text" class="form-control bg-light" name="text" id="text-comments">
+            <br>
+            <button id="footer-btn">Submit!</button>
+        </form>
+    </div>
+</footer>
+</body>
+</html>
